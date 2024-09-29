@@ -2,9 +2,9 @@ import java.util.*;
 public class Buscador {
     public static int vet[] = new int[10];
     public static int target = 15;
-    int inicio;
-    int fim;
-    int meio;
+    public static int inicio;
+    public static int fim;
+    public static int meio;
     
     public static void inicializador() {
         Random rand = new Random();
